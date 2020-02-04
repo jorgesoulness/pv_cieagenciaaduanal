@@ -1,0 +1,87 @@
+/* ==|====================
+   Module/Box
+   ======================= */
+   
+.contactDetail {
+  width: 100%; height: auto; padding: 0 20px; margin: 0 0 20px 0; position: relative; @include box-sizing(border-box);
+  h3 {
+    color: $c7; font-size: rem(25px); position: relative; color: $c7; margin: 0 0 10px 0; padding: 0 0 30px 0; font-weight: 900;
+    span {
+      width: 30%; height: 15px; @include position(absolute, null null 15px 0); background-color: $col2; border-radius: 15px;
+    }
+    p {
+      font-size: rem(20px); color: $c7;
+      strong {
+        font-weight: 700;
+      }
+    }
+  }
+}
+.contactForm {
+  width: 100%; height: auto; padding: 0 0; margin: 0 0 20px 0; position: relative; @include box-sizing(border-box);
+  form {
+    position: relative; width: 100%;
+    button[type="submit"] {
+      @include position(absolute, null -10px -10px null);
+    }
+  }
+}
+
+
+@media only screen and (min-width: 360px) {
+
+  
+}
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 576px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+  .contactDetail {
+    h3 {
+      font-size: rem(38px); text-align: left;
+      span {
+        width: 30%; height: 15px; bottom: 15px; border-radius: 15px;
+      }
+      p {
+        font-size: rem(20px); text-align: left;
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  .contactForm {
+    form {
+      button[type="submit"] {
+        @include position(absolute, null -30px -10px null);
+      }
+    }
+  }
+  .contactDetail {
+    h3 {
+      font-size: rem(45px);
+      span {
+        width: 30%; height: 15px; bottom: 15px; border-radius: 15px;
+      }
+      p {
+        font-size: rem(30px);
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+  
+}
