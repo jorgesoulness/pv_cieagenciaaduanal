@@ -658,7 +658,7 @@ article {
     height: 700px;
     .contHero {
       h1, h2, h3, h4, h5, h6 {
-        font-size: rem(90px);
+        font-size: rem(95px);
         span {
           &:after {
             height: 20px; bottom: 15px; @include border-top-radius(20px); @include border-bottom-radius(20px);
